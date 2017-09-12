@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AmountView">
+        <attr name="amount_maxCount" format="integer" />
+        <attr name="amount_currentCount" format="integer" />
+        <attr name="amount_btnWidth" format="dimension" />
+        <attr name="amount_btnHeight" format="dimension" />
+        <attr name="amount_inputMinWidth" format="dimension" />
+        <attr name="amount_inputMinHeight" format="dimension" />
+        <attr name="amount_inputTextSize" format="dimension" />
+    </declare-styleable>
+    
+</resources>

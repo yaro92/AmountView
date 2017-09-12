@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ylye.amountview.MainActivity">
+
+    <com.ylye.amountview.widget.AmountView
+        android:id="@+id/nb_shopcart_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:amount_btnWidth="24dp"
+        app:amount_btnHeight="24dp"
+        app:amount_inputMinWidth="26dp"
+        app:amount_inputMinHeight="24dp"
+        app:amount_inputTextSize="13sp"
+        app:amount_currentCount="1"
+        app:amount_maxCount="20" />
+
+</RelativeLayout>
